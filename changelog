@@ -1,3 +1,135 @@
+python-novaclient (2.6.8+20111128-0mit1~2.gbp674c63) oneiric; urgency=low
+
+  ** SNAPSHOT build @674c63e99d1f99d4238dff3329faeb8f19235d2e **
+
+  [ Gaurav Gupta ]
+  * [74e92a69] Added support to access nova-volume api (v1.1 extension)     - Only the basic functionality (create, delete, list) is implemented
+  * [acf8a278] Added methods to get, attach and detach volumes to/from running instances
+
+  [ Sandy Walsh ]
+  * [42e726ff] now uses tenantName vs. tenantId to auth
+
+  [ Gaurav Gupta ]
+  * [234205bf] Added the following CLI commands to access nova volumes:     volume-attach       Attach a volume to a server.     volume-create       Add a new volume.     volume-delete       Remove a volume.     volume-detach       Detach a volume from a server.     volume-list         List all the volumes.     volume-show         Show details about a volume.
+
+  [ Rick Harris ]
+  * [8ef62681] Don't filter endpoints when filter_value is non-truthy.
+
+  [ Unmesh Gurjar ]
+  * [772609aa] Added support to specify more boot options.
+
+  [ Anthony Young ]
+  * [4154b903] Add cli for floating ips
+  * [9a5a7c92] raise exception if floating_ip is not found in floating-ip-delete
+  * [8cb15843] Add CLI for security groups and rules
+  * [48e10643] display floating ip on create
+  * [bad31499] work on formatting for secgroup rules
+  * [6a20ed5e] don't expose ids to end user
+  * [356a92ee] add ability to create source group rules
+  * [6498d41c] remove extra space
+  * [16809a16] make description consistent
+
+  [ Pavel Shkitin ]
+  * [0ce3f979] Added commands to work with keypairs
+  * [4df5a2f3] Booting server with specific key is implemented
+
+  [ Gaurav Gupta ]
+  * [cd9f3cb4] Updated volume attach/detach commands to accept server name (in addition to server id).     Code review comments:     https://github.com/rackspace/python-novaclient/pull/125/files#r169829
+
+  [ Unmesh Gurjar ]
+  * [0b0abff4] Added support to specify more boot options.
+
+  [ Jesse Andrews ]
+  * [d6e6e044] doc improvements
+  * [4a168d54] typo
+  * [10c1f4b1] fix tests
+
+  [ Gabriel Hurley ]
+  * [aba2ced0] Fixes #133 -- Keystone Client fetches correct service type and endpoint.
+
+  [ Gaurav Gupta ]
+  * [66f2432f] Updated volume-create command to accept an optional attribute, snapshot_id. This enables the user to create a volume from a snapshot.
+  * [5c38baf6] Added support for listing/creating/deleting snapshots of nova volumes. Also implemented the supporting CLI commands.     Requires the OS API extension, 'os-snapshots'
+
+  [ Sandy Walsh ]
+  * [881427de] new service catalog semantics
+  * [0a3eda6c] minor tweaks and long overdue pep8
+  * [440e03ec] version update
+
+  [ Gaurav Gupta ]
+  * [c37a8b33] Added support for boot from volume (or snapshot)
+
+  [ Sandy Walsh ]
+  * [557b4eee] minor fixes
+
+  [ Gaurav Gupta ]
+  * [98cbe462] Fixed description for block_device_mapping parameter
+
+  [ Jason Straw ]
+  * [66d8bc49] Updated the novaclient shell to display the parent server id that the image came from.
+
+  [ Nicholas Mistry ]
+  * [84076fed] Added the option --insecure.   This disables SSL certificate validation.
+  * [f68120f9] added a space after url
+  * [507231fa] corrected argument order and replaced tabs with spaces.
+  * [1f8c6f8e] minor pep8 tweaks
+
+  [ Jason Straw ]
+  * [690f3d38] PEP8 cleanups of utils, and the v1_?/shell.py files
+  * [36f34d99] fixed missing line continuation characters in shell.py
+
+  [ Sandy Walsh ]
+  * [05a1ef7e] Boot now works with limited info returned from server
+
+  [ Rick Harris ]
+  * [e4d6ec75] Add back display of adminPass to boot
+
+  [ Sandy Walsh ]
+  * [13b7edfc] added --endpoint_name support
+  * [c386221b] started
+  * [cdde0d22] tests working
+  * [00f05317] few missing references to api_key
+
+  [ Gaurav Gupta ]
+  * [3d03a253] Modified as per code-review comments:     - Renaned snapshot to volume-snapshot     - Created a new file for volume snapshots
+
+  [ Kevin L. Mitchell ]
+  * [5bc98010] Follow redirects when calling out to Keystone.
+  * [7adecf7c] Use a try/finally to ensure state restoration
+
+  [ Dan Wendlandt ]
+  * [528b3e4d] Add support for specifying VIF networks while booting.
+
+  [ Sandy Walsh ]
+  * [4f107d74] fix tests
+  * [69c53273] pep8
+
+  [ James E. Blair ]
+  * [2229163a] Add .gitreview config file for gerrit.
+  * [d14e421a] Add rfc.sh.
+
+  [ Brian Waldon ]
+  * [49efa220] Rewriting admin-only calls as server actions
+
+  [ Josh Kearney ]
+  * [149e00bc] Adds bash completion support and cleans up setup.py.
+
+  [ Chris Behrens ]
+  * [0e1e38d2] Revert api_key change in novaclient Client argument
+
+  [ Rick Harris ]
+  * [58af45c9] Adding UUID cache for bash autocompletion.
+
+  [ Kevin L. Mitchell ]
+  * [69f7e87b] Fix spacing errors in authentication exceptions.
+
+  [ Édouard Thuleau ]
+  * [72c5ca3a] Change 'zone_blob' key to 'blob' in create server. bug 893183
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 20:57:49 +0000
+
 python-novaclient (2.6.6-0mit2) oneiric; urgency=low
 
   * Bump version for PPA rebuild.
