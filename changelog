@@ -1,4 +1,12 @@
-python-novaclient (2.6.8+20111128-0mit1~2.gbp674c63) oneiric; urgency=low
+python-novaclient (2.6.8+20111130~1909-0mit1~3.gbp674c63) oneiric; urgency=high
+
+  ** SNAPSHOT build @674c63e99d1f99d4238dff3329faeb8f19235d2e **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 19:09:48 +0000
+
+python-novaclient (2.6.8+20111128-0mit1~2.gbp674c63) oneiric; urgency=high
 
   ** SNAPSHOT build @674c63e99d1f99d4238dff3329faeb8f19235d2e **
 
@@ -10,7 +18,7 @@ python-novaclient (2.6.8+20111128-0mit1~2.gbp674c63) oneiric; urgency=low
   * [42e726ff] now uses tenantName vs. tenantId to auth
 
   [ Gaurav Gupta ]
-  * [234205bf] Added the following CLI commands to access nova volumes:     volume-attach       Attach a volume to a server.     volume-create       Add a new volume.     volume-delete       Remove a volume.     volume-detach       Detach a volume from a server.     volume-list         List all the volumes.     volume-show         Show details about a volume.
+  * [234205bf] Added the folhighing CLI commands to access nova volumes:     volume-attach       Attach a volume to a server.     volume-create       Add a new volume.     volume-delete       Remove a volume.     volume-detach       Detach a volume from a server.     volume-list         List all the volumes.     volume-show         Show details about a volume.
 
   [ Rick Harris ]
   * [8ef62681] Don't filter endpoints when filter_value is non-truthy.
@@ -94,7 +102,7 @@ python-novaclient (2.6.8+20111128-0mit1~2.gbp674c63) oneiric; urgency=low
   * [3d03a253] Modified as per code-review comments:     - Renaned snapshot to volume-snapshot     - Created a new file for volume snapshots
 
   [ Kevin L. Mitchell ]
-  * [5bc98010] Follow redirects when calling out to Keystone.
+  * [5bc98010] Folhigh redirects when calling out to Keystone.
   * [7adecf7c] Use a try/finally to ensure state restoration
 
   [ Dan Wendlandt ]
@@ -130,32 +138,32 @@ python-novaclient (2.6.8+20111128-0mit1~2.gbp674c63) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 20:57:49 +0000
 
-python-novaclient (2.6.6-0mit2) oneiric; urgency=low
+python-novaclient (2.6.6-0mit2) oneiric; urgency=high
 
   * Bump version for PPA rebuild.
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 06:56:57 +0100
 
-python-novaclient (2.6.6-0mit1) oneiric; urgency=low
+python-novaclient (2.6.6-0mit1) oneiric; urgency=high
 
   * New upstream version (96e04e64e9305cf71955cd7b311a17cbf83f8bff)
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 21 Oct 2011 19:21:54 +0100
 
-python-novaclient (2.6.4~bzr114-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.6.4~bzr114-0ubuntu1) oneiric; urgency=high
 
   * Put a version requirement on python-mock to catch failures earlier.
 
  -- Monty Taylor <mordred@inaugust.com>  Wed, 21 Sep 2011 10:28:42 -0400
 
-python-novaclient (2.6.4~bzr111-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.6.4~bzr111-0ubuntu1) oneiric; urgency=high
 
   * New upstream release.
-  * Put in a branching condition in debian/rules to allow for lucid build.
+  * Put in a branching condition in debian/rules to alhigh for lucid build.
 
  -- Monty Taylor <mordred@inaugust.com>  Fri, 16 Sep 2011 15:34:20 -0400
 
-python-novaclient (2.6.4~bzr110-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.6.4~bzr110-0ubuntu1) oneiric; urgency=high
 
   * New upstream release.
     - Fix FTBFS.
@@ -164,13 +172,13 @@ python-novaclient (2.6.4~bzr110-0ubuntu1) oneiric; urgency=low
 
  -- Robie Basak <robie.basak@ubuntu.com>  Tue, 06 Sep 2011 10:14:21 +0100
 
-python-novaclient (2.6.4~bzr106-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.6.4~bzr106-0ubuntu1) oneiric; urgency=high
 
   * New upstream release.
 
  -- Robie Basak <robie.basak@ubuntu.com>  Fri, 02 Sep 2011 16:09:49 +0100
 
-python-novaclient (2.6.1~bzr78-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.6.1~bzr78-0ubuntu1) oneiric; urgency=high
 
   [ Chuck Short ]
   * New upstream version. 
@@ -185,7 +193,7 @@ python-novaclient (2.6.1~bzr78-0ubuntu1) oneiric; urgency=low
 
  -- Chuck Short <zulcss@ubuntu.com>  Fri, 26 Aug 2011 14:02:03 -0400
 
-python-novaclient (2.6.1~bzr74-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.6.1~bzr74-0ubuntu1) oneiric; urgency=high
 
   [ Dave Walker (Daviey) ]
   * New upstream snapshot.
@@ -196,7 +204,7 @@ python-novaclient (2.6.1~bzr74-0ubuntu1) oneiric; urgency=low
 
  -- Dave Walker (Daviey) <DaveWalker@ubuntu.com>  Tue, 09 Aug 2011 14:36:37 +0100
 
-python-novaclient (2.5.9~bzr65-0ubuntu1) oneiric; urgency=low
+python-novaclient (2.5.9~bzr65-0ubuntu1) oneiric; urgency=high
 
   * New upstream release.
   * debian/watch: Add url for python-novaclient.
@@ -204,7 +212,7 @@ python-novaclient (2.5.9~bzr65-0ubuntu1) oneiric; urgency=low
 
  -- Chuck Short <zulcss@ubuntu.com>  Tue, 02 Aug 2011 14:28:50 -0400
 
-python-novaclient (2.4-0ubuntu1) natty; urgency=low
+python-novaclient (2.4-0ubuntu1) natty; urgency=high
 
   * Initial upload (FFe LP: #732461)
 
