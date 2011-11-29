@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20111130~2313-0mit1~4.gbp2f4928) oneiric; urgency=low
+
+  ** SNAPSHOT build @2f49282bd0260953cc4de85a62189c237a699b67 **
+
+  [ Kiall Mac Innes ]
+  * [2f49282b] Gracefully handle failure to cache UUID's. Bug #897885.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 23:13:45 +0000
+
 python-novaclient (2.6.8+20111130~1909-0mit1~3.gbp674c63) oneiric; urgency=high
 
   ** SNAPSHOT build @674c63e99d1f99d4238dff3329faeb8f19235d2e **
