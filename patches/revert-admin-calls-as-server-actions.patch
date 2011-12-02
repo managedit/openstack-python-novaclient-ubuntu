@@ -2,7 +2,7 @@ Index: python-novaclient/novaclient/v1_1/servers.py
 ===================================================================
 --- python-novaclient.orig/novaclient/v1_1/servers.py	2011-12-02 18:01:39.698190398 +0000
 +++ python-novaclient/novaclient/v1_1/servers.py	2011-12-02 18:01:09.934015723 +0000
-@@ -282,37 +282,37 @@
+@@ -282,28 +282,28 @@
          """
          Pause the server.
          """
@@ -34,15 +34,4 @@ Index: python-novaclient/novaclient/v1_1/servers.py
          """
          Rescue the server.
          """
--        self._action('rescue', server, None)
-+        self.api.client.post('/servers/%s/rescue' % base.getid(server))
- 
-     def unrescue(self, server):
-         """
-         Unrescue the server.
-         """
--        self._action('unrescue', server, None)
-+        self.api.client.post('/servers/%s/unrescue' % base.getid(server))
- 
-     def diagnostics(self, server):
-         """Retrieve server diagnostics."""
+         self._action('rescue', server, None)
