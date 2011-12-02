@@ -1,3 +1,11 @@
+python-novaclient (2.6.8+20111202~1839-0mit1~8.gbpb61a8d) oneiric; urgency=low
+
+  ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Fri, 02 Dec 2011 18:39:51 +0000
+
 python-novaclient (2.6.8+20111202~1806-0mit1~7.gbpb61a8d) oneiric; urgency=low
 
   ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
