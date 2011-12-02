@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20111202~0259-0mit1~6.gbpb61a8d) oneiric; urgency=low
+
+  ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
+
+  [ Aaron Lee ]
+  * [b61a8d8c] Converting rxtx_cap and rxtx_quota to rxtx_factor
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Fri, 02 Dec 2011 02:59:45 +0000
+
 python-novaclient (2.6.8+20111130~2313-0mit1~4.gbp2f4928) oneiric; urgency=low
 
   ** SNAPSHOT build @2f49282bd0260953cc4de85a62189c237a699b67 **
