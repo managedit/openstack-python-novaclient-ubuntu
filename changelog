@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20111206~0001-0mit1~10.gbp9067f2) oneiric; urgency=low
+
+  ** SNAPSHOT build @9067f2607716706796b9ef25e627c99092712d76 **
+
+  [ Lorin Hochstein ]
+  * [9067f260] Updated README.rst
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 06 Dec 2011 00:01:38 +0000
+
 python-novaclient (2.6.8+20111202~2342-0mit1~9.gbpb61a8d) oneiric; urgency=low
 
   ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
