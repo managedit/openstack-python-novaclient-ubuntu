@@ -1,3 +1,16 @@
+python-novaclient (2.6.8+20111208~0002-0mit1~11.gbp11a4ec) oneiric; urgency=low
+
+  ** SNAPSHOT build @11a4ecfe44dafad17105e585c35fbf27d1b3ae0a **
+
+  [ Brian Waldon ]
+  * [f866c6ec] Clean up image-show
+  * [578fc1cb] Clean up image-list cli command
+  * [596eb3c0] Fixing all remaining pep8 errors
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 08 Dec 2011 00:02:22 +0000
+
 python-novaclient (2.6.8+20111206~0001-0mit1~10.gbp9067f2) oneiric; urgency=low
 
   ** SNAPSHOT build @9067f2607716706796b9ef25e627c99092712d76 **
