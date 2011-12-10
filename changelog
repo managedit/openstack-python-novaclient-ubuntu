@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20111210~0000-0mit1~12.gbp959c44) oneiric; urgency=low
+
+  ** SNAPSHOT build @959c44ff5956b7e42134aef319f33f2b756bfcc7 **
+
+  [ Brian Waldon ]
+  * [959c44ff] Adding 'absolute-limits' and 'rate-limits'
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Sat, 10 Dec 2011 00:01:02 +0000
+
 python-novaclient (2.6.8+20111208~0002-0mit1~11.gbp11a4ec) oneiric; urgency=low
 
   ** SNAPSHOT build @11a4ecfe44dafad17105e585c35fbf27d1b3ae0a **
