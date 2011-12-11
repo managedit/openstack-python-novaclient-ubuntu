@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20111211~0000-0mit1~13.gbpf737a8) oneiric; urgency=low
+
+  ** SNAPSHOT build @f737a8c3bbbd30428cdecec500d2275a5f74ba89 **
+
+  [ Monty Taylor ]
+  * [f737a8c3] Add MANIFEST.in and setup.cfg back.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Sun, 11 Dec 2011 00:01:06 +0000
+
 python-novaclient (2.6.8+20111210~0000-0mit1~12.gbp959c44) oneiric; urgency=low
 
   ** SNAPSHOT build @959c44ff5956b7e42134aef319f33f2b756bfcc7 **
