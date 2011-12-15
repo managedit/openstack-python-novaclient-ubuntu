@@ -1,3 +1,23 @@
+python-novaclient (2.6.8+20111215~0001-0mit1~15.gbpa905e5) oneiric; urgency=low
+
+  ** SNAPSHOT build @a905e5fe0713a55c7b7ee7384b145fc3f4a18ba9 **
+
+  [ Thierry Carrez ]
+  * [ccb5f8f1] Switch versioning to common Nova versioning
+
+  [ Monty Taylor ]
+  * [1acbbb0c] Align run_tests.sh with nova.
+
+  [ Josh Kearney ]
+  * [6509fe25] Add support for RAX authentication.
+
+  [ Brian Waldon ]
+  * [a905e5fe] Accept 1 and 2 as version choices
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 15 Dec 2011 00:01:09 +0000
+
 python-novaclient (2.6.8+20111214~0001-0mit1~14.gbpb45ea3) oneiric; urgency=low
 
   ** SNAPSHOT build @b45ea3ac450a8e0a3b82b2f05d2340c33da8c53c **
