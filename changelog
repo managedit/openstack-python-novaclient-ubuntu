@@ -1,3 +1,17 @@
+python-novaclient (2.6.8+20111220~0001-0mit1~17.gbpe20dcd) oneiric; urgency=low
+
+  ** SNAPSHOT build @e20dcd8cd74fd5076a0aa669b076df82f9056c57 **
+
+  [ Jesse Andrews ]
+  * [95f277a0] standardize environmental settings for cli auth
+
+  [ Julien Danjou ]
+  * [1e8c0bfa] Do no depends on argparse for Python >= 2.7
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 20 Dec 2011 00:01:07 +0000
+
 python-novaclient (2.6.8+20111216~0000-0mit1~16.gbp3661be) oneiric; urgency=low
 
   ** SNAPSHOT build @3661be66730efd4bce32fd54e2443c42ad91edbd **
