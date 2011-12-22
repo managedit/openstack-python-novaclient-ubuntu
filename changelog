@@ -1,3 +1,17 @@
+python-novaclient (2.6.8+20111222~0001-0mit1~20.gbp88bdfd) oneiric; urgency=low
+
+  ** SNAPSHOT build @88bdfdd12f832c0bfbde6680828d86fa4e2f74e1 **
+
+  [ Jesse Andrews ]
+  * [68d0abb0] more work towards standardize config
+
+  [ Rick Harris ]
+  * [88bdfdd1] Extensions can now modify resources.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 22 Dec 2011 00:01:07 +0000
+
 python-novaclient (2.6.8+20111221~0014-0mit1~19.gbp26ba43) oneiric; urgency=low
 
   ** SNAPSHOT build @26ba43db9dae3b166acac407a84ba25aa3d766fa **
