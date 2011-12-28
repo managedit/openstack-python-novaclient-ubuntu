@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20111228~0002-0mit1~21.gbpeee435) oneiric; urgency=low
+
+  ** SNAPSHOT build @eee43516b84ff11087d7a73e92691298bbd7f4b2 **
+
+  [ Julien Danjou ]
+  * [6ba0c64c] Allow to not specify image if block_device_mapping is set
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Wed, 28 Dec 2011 00:02:38 +0000
+
 python-novaclient (2.6.8+20111222~0001-0mit1~20.gbp88bdfd) oneiric; urgency=low
 
   ** SNAPSHOT build @88bdfdd12f832c0bfbde6680828d86fa4e2f74e1 **
