@@ -1,3 +1,23 @@
+python-novaclient (2.6.8+20111229~0001-0mit1~22.gbp243886) oneiric; urgency=low
+
+  ** SNAPSHOT build @24388696551f97d41195241ff1a3bb0087305039 **
+
+  [ jakedahn ]
+  * [4d5946af] Adding return statement to get_console_output
+
+  [ Brian Waldon ]
+  * [d7f04e19] Removing cache-busting query param (fresh)
+
+  [ jakedahn ]
+  * [d2e054f0] Simplifying get_console_output client interface.
+
+  [ Andrew Bogott ]
+  * [24388696] Improve the test framework to handle urls with args.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 29 Dec 2011 00:01:57 +0000
+
 python-novaclient (2.6.8+20111228~0002-0mit1~21.gbpeee435) oneiric; urgency=low
 
   ** SNAPSHOT build @eee43516b84ff11087d7a73e92691298bbd7f4b2 **
