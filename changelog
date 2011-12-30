@@ -1,3 +1,20 @@
+python-novaclient (2.6.8+20111230~0001-0mit1~23.gbpb8e6ec) oneiric; urgency=low
+
+  ** SNAPSHOT build @b8e6ec895e65f246b93b16692c4c58c89fb47c18 **
+
+  [ lzyeval ]
+  * [61fb8828] python-novaclient missing pep8 in pip-requires
+
+  [ Brian Waldon ]
+  * [90212e93] Remove unused imports and fix NameError on exc
+
+  [ Andrew Bogott ]
+  * [c9d87f9b] Add the python api for floating IP DNS.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Fri, 30 Dec 2011 00:01:54 +0000
+
 python-novaclient (2.6.8+20111229~0001-0mit1~22.gbp243886) oneiric; urgency=low
 
   ** SNAPSHOT build @24388696551f97d41195241ff1a3bb0087305039 **
