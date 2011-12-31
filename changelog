@@ -1,3 +1,17 @@
+python-novaclient (2.6.8+20111231~0001-0mit1~24.gbp97d7b1) oneiric; urgency=low
+
+  ** SNAPSHOT build @97d7b16f03978e783adcb93ba2131c8fc552ebd8 **
+
+  [ Julien Danjou ]
+  * [af7c33ec] Fix typo in endpoint_name help string
+
+  [ François Charlier ]
+  * [d18954f4] Add missing returns and remove superfluous ones
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Sat, 31 Dec 2011 00:01:55 +0000
+
 python-novaclient (2.6.8+20111230~0001-0mit1~23.gbpb8e6ec) oneiric; urgency=low
 
   ** SNAPSHOT build @b8e6ec895e65f246b93b16692c4c58c89fb47c18 **
