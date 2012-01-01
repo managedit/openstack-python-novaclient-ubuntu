@@ -1,3 +1,15 @@
+python-novaclient (2.6.8+20120101~0001-0mit1~25.gbpb99d66) oneiric; urgency=low
+
+  ** SNAPSHOT build @b99d66d3ade380f27a97007ec5d1ef28362ddaaa **
+
+  [ Julien Danjou ]
+  * [3fcf4a13] Add list() method to ManagerWithFind
+  * [3758c260] utils.find_resource fixes + fix for volumes
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Sun, 01 Jan 2012 00:01:53 +0000
+
 python-novaclient (2.6.8+20111231~0001-0mit1~24.gbp97d7b1) oneiric; urgency=low
 
   ** SNAPSHOT build @97d7b16f03978e783adcb93ba2131c8fc552ebd8 **
