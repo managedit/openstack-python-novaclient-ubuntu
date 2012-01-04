@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120104~0001-0mit1~26.gbpc879ee) oneiric; urgency=low
+
+  ** SNAPSHOT build @c879ee8cc51777ab26fcb4cc6dfc590d77d3598d **
+
+  [ Monty Taylor ]
+  * [c879ee8c] Install a good version of pip in the venv.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Wed, 04 Jan 2012 00:02:01 +0000
+
 python-novaclient (2.6.8+20120101~0001-0mit1~25.gbpb99d66) oneiric; urgency=low
 
   ** SNAPSHOT build @b99d66d3ade380f27a97007ec5d1ef28362ddaaa **
