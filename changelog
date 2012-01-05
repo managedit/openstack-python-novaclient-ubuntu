@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120105~0001-0mit1~27.gbp4c61a8) oneiric; urgency=low
+
+  ** SNAPSHOT build @4c61a894570be736d0d102a7d6510b3984585247 **
+
+  [ Brian Waldon ]
+  * [e0174b51] Abstract Client building into novaclient.client
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 05 Jan 2012 00:01:46 +0000
+
 python-novaclient (2.6.8+20120104~0001-0mit1~26.gbpc879ee) oneiric; urgency=low
 
   ** SNAPSHOT build @c879ee8cc51777ab26fcb4cc6dfc590d77d3598d **
