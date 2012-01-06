@@ -1,3 +1,17 @@
+python-novaclient (2.6.8+20120106~0000-0mit1~28.gbp138dad) oneiric; urgency=low
+
+  ** SNAPSHOT build @138dad3992f6b145768349cc854c2a79954b95e8 **
+
+  [ Monty Taylor ]
+  * [b921f21a] Add tox.ini file.
+
+  [ Chris Behrens ]
+  * [20be4a0a] show 409 responses
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Fri, 06 Jan 2012 00:01:04 +0000
+
 python-novaclient (2.6.8+20120105~0001-0mit1~27.gbp4c61a8) oneiric; urgency=low
 
   ** SNAPSHOT build @4c61a894570be736d0d102a7d6510b3984585247 **
