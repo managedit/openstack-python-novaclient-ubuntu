@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120107~0000-0mit1~29.gbp269d43) oneiric; urgency=low
+
+  ** SNAPSHOT build @269d43a38de26e2d95043351ef3c216e7ff067ee **
+
+  [ Rick Harris ]
+  * [269d43a3] Discover extensions via Python's import paths
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Sat, 07 Jan 2012 00:00:56 +0000
+
 python-novaclient (2.6.8+20120106~0000-0mit1~28.gbp138dad) oneiric; urgency=low
 
   ** SNAPSHOT build @138dad3992f6b145768349cc854c2a79954b95e8 **
