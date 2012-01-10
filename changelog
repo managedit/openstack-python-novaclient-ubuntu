@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120110~0000-0mit1~30.gbp8651e9) oneiric; urgency=low
+
+  ** SNAPSHOT build @8651e97afa92557211aab52a1dfde62bda0cc81f **
+
+  [ Andrew Bogott ]
+  * [e9840727] Added command-line interfaces for the floating ip DNS api to nova.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 10 Jan 2012 00:01:00 +0000
+
 python-novaclient (2.6.8+20120107~0000-0mit1~29.gbp269d43) oneiric; urgency=low
 
   ** SNAPSHOT build @269d43a38de26e2d95043351ef3c216e7ff067ee **
