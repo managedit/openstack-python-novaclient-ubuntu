@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120111~0000-0mit1~31.gbpc747f1) oneiric; urgency=low
+
+  ** SNAPSHOT build @c747f153ec103e52d3e743ba6257fba1c6796426 **
+
+  [ lzyeval ]
+  * [4ff27703] PEP8 python-novaclient cleanup
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Wed, 11 Jan 2012 00:01:02 +0000
+
 python-novaclient (2.6.8+20120110~0000-0mit1~30.gbp8651e9) oneiric; urgency=low
 
   ** SNAPSHOT build @8651e97afa92557211aab52a1dfde62bda0cc81f **
