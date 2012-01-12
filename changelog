@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120112~0000-0mit1~32.gbpd7fb1f) oneiric; urgency=low
+
+  ** SNAPSHOT build @d7fb1f33cca07403944a4a4324dd19e28cc023a9 **
+
+  [ jakedahn ]
+  * [d7fb1f33] Implementing Floating Ip Pools.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 12 Jan 2012 00:01:00 +0000
+
 python-novaclient (2.6.8+20120111~0000-0mit1~31.gbpc747f1) oneiric; urgency=low
 
   ** SNAPSHOT build @c747f153ec103e52d3e743ba6257fba1c6796426 **
