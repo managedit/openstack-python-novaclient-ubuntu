@@ -1,4 +1,16 @@
-python-novaclient (2.6.8+20120117~0000-0mit1~33.gbp764421) oneiric; urgency=low
+python-novaclient (2.6.10~20120117~1411-0mit1~36.gbpa2508a) oneiric; urgency=medium
+
+  ** SNAPSHOT build @a2508aa9202638580d86a5975c6d5e144db2f6c8 **
+
+  [ François Charlier ]
+  * [ee4696aa] Clean FloatingIPDNS resource
+  * [d1750546] Fix Quota ant SecurityGroup resources refreshing.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 17 Jan 2012 14:11:21 +0000
+
+python-novaclient (2.6.8+20120117~0000-0mit1~33.gbp764421) oneiric; urgency=medium
 
   ** SNAPSHOT build @764421b44b53748681ba29f4013f90d5d24ac837 **
 
@@ -9,7 +21,7 @@ python-novaclient (2.6.8+20120117~0000-0mit1~33.gbp764421) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 17 Jan 2012 00:00:53 +0000
 
-python-novaclient (2.6.8+20120112~0000-0mit1~32.gbpd7fb1f) oneiric; urgency=low
+python-novaclient (2.6.8+20120112~0000-0mit1~32.gbpd7fb1f) oneiric; urgency=medium
 
   ** SNAPSHOT build @d7fb1f33cca07403944a4a4324dd19e28cc023a9 **
 
@@ -20,7 +32,7 @@ python-novaclient (2.6.8+20120112~0000-0mit1~32.gbpd7fb1f) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Thu, 12 Jan 2012 00:01:00 +0000
 
-python-novaclient (2.6.8+20120111~0000-0mit1~31.gbpc747f1) oneiric; urgency=low
+python-novaclient (2.6.8+20120111~0000-0mit1~31.gbpc747f1) oneiric; urgency=medium
 
   ** SNAPSHOT build @c747f153ec103e52d3e743ba6257fba1c6796426 **
 
@@ -31,7 +43,7 @@ python-novaclient (2.6.8+20120111~0000-0mit1~31.gbpc747f1) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Wed, 11 Jan 2012 00:01:02 +0000
 
-python-novaclient (2.6.8+20120110~0000-0mit1~30.gbp8651e9) oneiric; urgency=low
+python-novaclient (2.6.8+20120110~0000-0mit1~30.gbp8651e9) oneiric; urgency=medium
 
   ** SNAPSHOT build @8651e97afa92557211aab52a1dfde62bda0cc81f **
 
@@ -42,7 +54,7 @@ python-novaclient (2.6.8+20120110~0000-0mit1~30.gbp8651e9) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 10 Jan 2012 00:01:00 +0000
 
-python-novaclient (2.6.8+20120107~0000-0mit1~29.gbp269d43) oneiric; urgency=low
+python-novaclient (2.6.8+20120107~0000-0mit1~29.gbp269d43) oneiric; urgency=medium
 
   ** SNAPSHOT build @269d43a38de26e2d95043351ef3c216e7ff067ee **
 
@@ -53,7 +65,7 @@ python-novaclient (2.6.8+20120107~0000-0mit1~29.gbp269d43) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Sat, 07 Jan 2012 00:00:56 +0000
 
-python-novaclient (2.6.8+20120106~0000-0mit1~28.gbp138dad) oneiric; urgency=low
+python-novaclient (2.6.8+20120106~0000-0mit1~28.gbp138dad) oneiric; urgency=medium
 
   ** SNAPSHOT build @138dad3992f6b145768349cc854c2a79954b95e8 **
 
@@ -67,7 +79,7 @@ python-novaclient (2.6.8+20120106~0000-0mit1~28.gbp138dad) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 06 Jan 2012 00:01:04 +0000
 
-python-novaclient (2.6.8+20120105~0001-0mit1~27.gbp4c61a8) oneiric; urgency=low
+python-novaclient (2.6.8+20120105~0001-0mit1~27.gbp4c61a8) oneiric; urgency=medium
 
   ** SNAPSHOT build @4c61a894570be736d0d102a7d6510b3984585247 **
 
@@ -78,7 +90,7 @@ python-novaclient (2.6.8+20120105~0001-0mit1~27.gbp4c61a8) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Thu, 05 Jan 2012 00:01:46 +0000
 
-python-novaclient (2.6.8+20120104~0001-0mit1~26.gbpc879ee) oneiric; urgency=low
+python-novaclient (2.6.8+20120104~0001-0mit1~26.gbpc879ee) oneiric; urgency=medium
 
   ** SNAPSHOT build @c879ee8cc51777ab26fcb4cc6dfc590d77d3598d **
 
@@ -89,7 +101,7 @@ python-novaclient (2.6.8+20120104~0001-0mit1~26.gbpc879ee) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Wed, 04 Jan 2012 00:02:01 +0000
 
-python-novaclient (2.6.8+20120101~0001-0mit1~25.gbpb99d66) oneiric; urgency=low
+python-novaclient (2.6.8+20120101~0001-0mit1~25.gbpb99d66) oneiric; urgency=medium
 
   ** SNAPSHOT build @b99d66d3ade380f27a97007ec5d1ef28362ddaaa **
 
@@ -101,7 +113,7 @@ python-novaclient (2.6.8+20120101~0001-0mit1~25.gbpb99d66) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Sun, 01 Jan 2012 00:01:53 +0000
 
-python-novaclient (2.6.8+20111231~0001-0mit1~24.gbp97d7b1) oneiric; urgency=low
+python-novaclient (2.6.8+20111231~0001-0mit1~24.gbp97d7b1) oneiric; urgency=medium
 
   ** SNAPSHOT build @97d7b16f03978e783adcb93ba2131c8fc552ebd8 **
 
@@ -115,7 +127,7 @@ python-novaclient (2.6.8+20111231~0001-0mit1~24.gbp97d7b1) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Sat, 31 Dec 2011 00:01:55 +0000
 
-python-novaclient (2.6.8+20111230~0001-0mit1~23.gbpb8e6ec) oneiric; urgency=low
+python-novaclient (2.6.8+20111230~0001-0mit1~23.gbpb8e6ec) oneiric; urgency=medium
 
   ** SNAPSHOT build @b8e6ec895e65f246b93b16692c4c58c89fb47c18 **
 
@@ -132,7 +144,7 @@ python-novaclient (2.6.8+20111230~0001-0mit1~23.gbpb8e6ec) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 30 Dec 2011 00:01:54 +0000
 
-python-novaclient (2.6.8+20111229~0001-0mit1~22.gbp243886) oneiric; urgency=low
+python-novaclient (2.6.8+20111229~0001-0mit1~22.gbp243886) oneiric; urgency=medium
 
   ** SNAPSHOT build @24388696551f97d41195241ff1a3bb0087305039 **
 
@@ -152,18 +164,18 @@ python-novaclient (2.6.8+20111229~0001-0mit1~22.gbp243886) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Thu, 29 Dec 2011 00:01:57 +0000
 
-python-novaclient (2.6.8+20111228~0002-0mit1~21.gbpeee435) oneiric; urgency=low
+python-novaclient (2.6.8+20111228~0002-0mit1~21.gbpeee435) oneiric; urgency=medium
 
   ** SNAPSHOT build @eee43516b84ff11087d7a73e92691298bbd7f4b2 **
 
   [ Julien Danjou ]
-  * [6ba0c64c] Allow to not specify image if block_device_mapping is set
+  * [6ba0c64c] Almedium to not specify image if block_device_mapping is set
 
   [ Managed I.T. CI ]
 
  -- Managed I.T. CI <ci@managedit.ie>  Wed, 28 Dec 2011 00:02:38 +0000
 
-python-novaclient (2.6.8+20111222~0001-0mit1~20.gbp88bdfd) oneiric; urgency=low
+python-novaclient (2.6.8+20111222~0001-0mit1~20.gbp88bdfd) oneiric; urgency=medium
 
   ** SNAPSHOT build @88bdfdd12f832c0bfbde6680828d86fa4e2f74e1 **
 
@@ -177,7 +189,7 @@ python-novaclient (2.6.8+20111222~0001-0mit1~20.gbp88bdfd) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Thu, 22 Dec 2011 00:01:07 +0000
 
-python-novaclient (2.6.8+20111221~0014-0mit1~19.gbp26ba43) oneiric; urgency=low
+python-novaclient (2.6.8+20111221~0014-0mit1~19.gbp26ba43) oneiric; urgency=medium
 
   ** SNAPSHOT build @26ba43db9dae3b166acac407a84ba25aa3d766fa **
 
@@ -185,7 +197,7 @@ python-novaclient (2.6.8+20111221~0014-0mit1~19.gbp26ba43) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Wed, 21 Dec 2011 00:14:24 +0000
 
-python-novaclient (2.6.8+20111221~0001-0mit1~18.gbp26ba43) oneiric; urgency=low
+python-novaclient (2.6.8+20111221~0001-0mit1~18.gbp26ba43) oneiric; urgency=medium
 
   ** SNAPSHOT build @26ba43db9dae3b166acac407a84ba25aa3d766fa **
 
@@ -202,7 +214,7 @@ python-novaclient (2.6.8+20111221~0001-0mit1~18.gbp26ba43) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Wed, 21 Dec 2011 00:01:17 +0000
 
-python-novaclient (2.6.8+20111220~0001-0mit1~17.gbpe20dcd) oneiric; urgency=low
+python-novaclient (2.6.8+20111220~0001-0mit1~17.gbpe20dcd) oneiric; urgency=medium
 
   ** SNAPSHOT build @e20dcd8cd74fd5076a0aa669b076df82f9056c57 **
 
@@ -216,7 +228,7 @@ python-novaclient (2.6.8+20111220~0001-0mit1~17.gbpe20dcd) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 20 Dec 2011 00:01:07 +0000
 
-python-novaclient (2.6.8+20111216~0000-0mit1~16.gbp3661be) oneiric; urgency=low
+python-novaclient (2.6.8+20111216~0000-0mit1~16.gbp3661be) oneiric; urgency=medium
 
   ** SNAPSHOT build @3661be66730efd4bce32fd54e2443c42ad91edbd **
 
@@ -232,7 +244,7 @@ python-novaclient (2.6.8+20111216~0000-0mit1~16.gbp3661be) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 16 Dec 2011 00:01:04 +0000
 
-python-novaclient (2.6.8+20111215~0001-0mit1~15.gbpa905e5) oneiric; urgency=low
+python-novaclient (2.6.8+20111215~0001-0mit1~15.gbpa905e5) oneiric; urgency=medium
 
   ** SNAPSHOT build @a905e5fe0713a55c7b7ee7384b145fc3f4a18ba9 **
 
@@ -252,7 +264,7 @@ python-novaclient (2.6.8+20111215~0001-0mit1~15.gbpa905e5) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Thu, 15 Dec 2011 00:01:09 +0000
 
-python-novaclient (2.6.8+20111214~0001-0mit1~14.gbpb45ea3) oneiric; urgency=low
+python-novaclient (2.6.8+20111214~0001-0mit1~14.gbpb45ea3) oneiric; urgency=medium
 
   ** SNAPSHOT build @b45ea3ac450a8e0a3b82b2f05d2340c33da8c53c **
 
@@ -263,7 +275,7 @@ python-novaclient (2.6.8+20111214~0001-0mit1~14.gbpb45ea3) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Wed, 14 Dec 2011 00:01:05 +0000
 
-python-novaclient (2.6.8+20111211~0000-0mit1~13.gbpf737a8) oneiric; urgency=low
+python-novaclient (2.6.8+20111211~0000-0mit1~13.gbpf737a8) oneiric; urgency=medium
 
   ** SNAPSHOT build @f737a8c3bbbd30428cdecec500d2275a5f74ba89 **
 
@@ -274,7 +286,7 @@ python-novaclient (2.6.8+20111211~0000-0mit1~13.gbpf737a8) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Sun, 11 Dec 2011 00:01:06 +0000
 
-python-novaclient (2.6.8+20111210~0000-0mit1~12.gbp959c44) oneiric; urgency=low
+python-novaclient (2.6.8+20111210~0000-0mit1~12.gbp959c44) oneiric; urgency=medium
 
   ** SNAPSHOT build @959c44ff5956b7e42134aef319f33f2b756bfcc7 **
 
@@ -285,7 +297,7 @@ python-novaclient (2.6.8+20111210~0000-0mit1~12.gbp959c44) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Sat, 10 Dec 2011 00:01:02 +0000
 
-python-novaclient (2.6.8+20111208~0002-0mit1~11.gbp11a4ec) oneiric; urgency=low
+python-novaclient (2.6.8+20111208~0002-0mit1~11.gbp11a4ec) oneiric; urgency=medium
 
   ** SNAPSHOT build @11a4ecfe44dafad17105e585c35fbf27d1b3ae0a **
 
@@ -298,7 +310,7 @@ python-novaclient (2.6.8+20111208~0002-0mit1~11.gbp11a4ec) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Thu, 08 Dec 2011 00:02:22 +0000
 
-python-novaclient (2.6.8+20111206~0001-0mit1~10.gbp9067f2) oneiric; urgency=low
+python-novaclient (2.6.8+20111206~0001-0mit1~10.gbp9067f2) oneiric; urgency=medium
 
   ** SNAPSHOT build @9067f2607716706796b9ef25e627c99092712d76 **
 
@@ -309,7 +321,7 @@ python-novaclient (2.6.8+20111206~0001-0mit1~10.gbp9067f2) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 06 Dec 2011 00:01:38 +0000
 
-python-novaclient (2.6.8+20111202~2342-0mit1~9.gbpb61a8d) oneiric; urgency=low
+python-novaclient (2.6.8+20111202~2342-0mit1~9.gbpb61a8d) oneiric; urgency=medium
 
   ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
 
@@ -317,7 +329,7 @@ python-novaclient (2.6.8+20111202~2342-0mit1~9.gbpb61a8d) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 02 Dec 2011 23:42:14 +0000
 
-python-novaclient (2.6.8+20111202~1839-0mit1~8.gbpb61a8d) oneiric; urgency=low
+python-novaclient (2.6.8+20111202~1839-0mit1~8.gbpb61a8d) oneiric; urgency=medium
 
   ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
 
@@ -325,7 +337,7 @@ python-novaclient (2.6.8+20111202~1839-0mit1~8.gbpb61a8d) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 02 Dec 2011 18:39:51 +0000
 
-python-novaclient (2.6.8+20111202~1806-0mit1~7.gbpb61a8d) oneiric; urgency=low
+python-novaclient (2.6.8+20111202~1806-0mit1~7.gbpb61a8d) oneiric; urgency=medium
 
   ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
 
@@ -333,7 +345,7 @@ python-novaclient (2.6.8+20111202~1806-0mit1~7.gbpb61a8d) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 02 Dec 2011 18:06:19 +0000
 
-python-novaclient (2.6.8+20111202~0259-0mit1~6.gbpb61a8d) oneiric; urgency=low
+python-novaclient (2.6.8+20111202~0259-0mit1~6.gbpb61a8d) oneiric; urgency=medium
 
   ** SNAPSHOT build @b61a8d8c2483847ab34ed41b473c833cbc4df4a6 **
 
@@ -344,7 +356,7 @@ python-novaclient (2.6.8+20111202~0259-0mit1~6.gbpb61a8d) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Fri, 02 Dec 2011 02:59:45 +0000
 
-python-novaclient (2.6.8+20111130~2313-0mit1~4.gbp2f4928) oneiric; urgency=low
+python-novaclient (2.6.8+20111130~2313-0mit1~4.gbp2f4928) oneiric; urgency=medium
 
   ** SNAPSHOT build @2f49282bd0260953cc4de85a62189c237a699b67 **
 
