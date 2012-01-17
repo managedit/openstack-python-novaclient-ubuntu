@@ -1,3 +1,14 @@
+python-novaclient (2.6.8+20120117~0000-0mit1~33.gbp764421) oneiric; urgency=low
+
+  ** SNAPSHOT build @764421b44b53748681ba29f4013f90d5d24ac837 **
+
+  [ Rick Harris ]
+  * [149b248a] Get ImpLoader from ImpImporter for Py2.6
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 17 Jan 2012 00:00:53 +0000
+
 python-novaclient (2.6.8+20120112~0000-0mit1~32.gbpd7fb1f) oneiric; urgency=low
 
   ** SNAPSHOT build @d7fb1f33cca07403944a4a4324dd19e28cc023a9 **
