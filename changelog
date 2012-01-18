@@ -1,3 +1,14 @@
+python-novaclient (2.6.10~20120118~0000-0mit1~37.gbp559949) oneiric; urgency=medium
+
+  ** SNAPSHOT build @559949c9b0ffa2dd5fcb173498d1b6ea92a0ceca **
+
+  [ Rick Harris ]
+  * [559949c9] Adding rebuild/resize hooks.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Wed, 18 Jan 2012 00:00:47 +0000
+
 python-novaclient (2.6.10~20120117~1411-0mit1~36.gbpa2508a) oneiric; urgency=medium
 
   ** SNAPSHOT build @a2508aa9202638580d86a5975c6d5e144db2f6c8 **
