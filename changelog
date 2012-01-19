@@ -1,3 +1,17 @@
+python-novaclient (2.6.10~20120119~0000-0mit1~38.gbp94f18f) oneiric; urgency=medium
+
+  ** SNAPSHOT build @94f18f953c9f2d10be439a1ba97f549d7435b12f **
+
+  [ François Charlier ]
+  * [4b9621cf] Fix bad api call, 'migrate' is an action.
+
+  [ Anthony Young ]
+  * [2c6c34dd] Add server.get_vnc_console functionality to python-novaclient
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 19 Jan 2012 00:00:48 +0000
+
 python-novaclient (2.6.10~20120118~0000-0mit1~37.gbp559949) oneiric; urgency=medium
 
   ** SNAPSHOT build @559949c9b0ffa2dd5fcb173498d1b6ea92a0ceca **
